@@ -96,7 +96,9 @@ body {
     height:250px;
     top:75px;
     left:0;
-    display: none;
+    visibility: hidden;
+    capacity:0;
+    
     }
   .active nav ul li ul.sub-nav li
     {
@@ -110,8 +112,11 @@ body {
       color:blue;
       box-shadow: lightblue;
     }
-    
-    
+     .active nav ul li:hover ul.sub.nav{
+       display:black;
+       visibility: visible;
+    capacity:1;
+    }
     
   </style>
 </head>
